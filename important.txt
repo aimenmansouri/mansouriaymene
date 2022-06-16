@@ -1,0 +1,15 @@
+project download link if github files did not work : https://www.mediafire.com/file/ouw3a5y164he3he/just.rar/file
+
+how to run the site on your local server :
+1 install xampp. https://www.apachefriends.org/fr/index.html
+2 install php composer. https://getcomposer.org/
+3 create new file in htdocs move project files in there (optional but recommended).
+4 creat new data base named 'ejust' in phpmyadmin.
+4 open terminal for project root folder and run those commands in order :
+    - composer global require laravel/installer
+    - php artisan migrate
+    - php artisan serv
+    - npm run watch (if you watch to edit intreface node.js required)
+
+After completing those steps site should me running on http://127.0.0.1:8000/
+Note : An internet connection is mandatory for the site to function with all its features (some js librarys i used with cdn).
